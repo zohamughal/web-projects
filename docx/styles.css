@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+}
+/* header css */
+div#logo img {
+    width: 5%;
+    vertical-align: middle;
+    margin-left: 7%;
+}
+
+div#logo span {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+div#list {
+    position: relative;
+}
+
+div#list ol {
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+    position: absolute;
+    top: -72px;
+    left: 20%;
+}
+
+li {
+    margin: 5px 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+div#button {
+    position: relative;
+}
+
+div#button button {
+    padding: 11px 20px;
+    background: #84C52B;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    top: -58px;
+    right: 9%;
+    color: white;
+}
+
+
+/* section one css */
+
+section.one {
+    background-image: url(../html/image/photo2.jpg);
+    height: 550px;
+    background-size: cover;
+    animation: bgchange 20s linear 0s;
+    /* animation-fill-mode: forwards; */
+}
+
+@keyframes bgchange{
+    0%{
+        background-image: url(../html/image/photo1.jpg);
+        /* color: blue !important; */
+        /* background-color: red;; */
+    }
+
+    25%{
+        /* background-color: blue;; */
+
+        background-image: url(../html/image/photo2.jpg);
+        /* color: red !important; */
+    }
+
+    50%{
+        background-image: url(../html/image/photo3.jpg);     
+        /* color: yellow !important; */
+        
+    }
+
+    75%{
+        background-image: url(../html/image/photo4.jpg);
+        /* color: magenta !important; */
+        /* background-color: yellow;; */
+
+    }
+
+    100%{
+        background-image: url(../html/image/logo.PNG);
+        /* color: blue !important;      */
+        /* background-color: magenta;; */
+        
+    }
+
+
+
+}
+
+section.one{
+    /* color:blue;  */
+}
+
+div#bg-img {
+    position: relative;
+    top: 22%;
+    width: 35%;
+    left: 10%;
+}
+
+div#bg-img h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blanchedalmond;
+    margin-bottom: 0px;
+}
+
+div#bg-img h1 {
+    margin-top: 2px;
+    color: cornsilk;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+}
+
+div#bg-img p {
+    font-size: 20px;
+    color: floralwhite;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+
+div#bg-img button {
+    background: none;
+    padding: 10px 15px;
+    color: beige;
+    font-size: 14px;
+    font-family: sans-serif;
+    border: 3px solid black;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* section two css */
+
+section#two {
+    top: 80%;
+    position: absolute;
+}
+
+div#outer {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+div#outer .inner1, .inner2, .inner3, .inner4 {
+    margin: 0px 30px;
+    width: 20%;
+    background: #dddd8d;
+}
+
+div#outer .inner {
+    margin: 0px 35px;
+    width: 20%;
+    background: #dddd8d;
+}
+
+.inner img {
+    width: 50%;
+    margin: 15px 55px;
+}
+
+.inner h3 {
+    text-align: center;
+}
+
+h3:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.inner p {
+    text-align: center;
+    margin: 30px 17px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+
+
+
+
